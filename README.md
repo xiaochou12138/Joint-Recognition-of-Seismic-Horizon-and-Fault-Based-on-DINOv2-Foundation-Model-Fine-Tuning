@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 Download Datasets
 Before running the code, you need to download the datasets. 
-Please download the data from [Insert Link Here] and place it in the data/ folder.
+Please download the data from (https://drive.google.com/drive/folders/1gKgE0lJfkmGsF433mj0jMVanPNZjeJKP?usp=drive_link) and place it in the data/ folder.
 
 Run the Code
 You can run the following scripts for training, evaluation, and visualization:
