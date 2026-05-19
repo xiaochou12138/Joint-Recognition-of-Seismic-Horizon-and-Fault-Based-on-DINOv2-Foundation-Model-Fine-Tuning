@@ -54,19 +54,24 @@ You can run the following scripts for training, evaluation, and visualization:
 
 Training & Evaluation
 Single-task training
+
 python demo_classification.py
 
 Multi-task training
+
 python demo_classification_two_tasks.py
 
 Evaluate single-task model predictions
+
 python evaluate_classification.py
 
 Evaluate multi-task model predictions
+
 python evaluate_classification_two_tasks.py
 
 Post-processing & Analysis
 Post-processing (corresponds to the method in the paper)
+
 python manual_judge_horizon.py
 
 💡 Interesting Features & Visualizations
