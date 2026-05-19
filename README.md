@@ -11,8 +11,8 @@ This repository presents a workflow for adapting pre-trained foundation models t
 
 To prepare the training dataset using seismic data alongside corresponding horizon and fault interpretations, follow these steps:
 
-Construct Structural Frameworks: Use the data/make_datasets.py script to process the raw data and build the structural frameworks.
-Generate Datasets: Execute data/make_dataset_labels.py to generate the actual training and testing splits required for network training.
+Construct Structural Frameworks: Use the data/make_dataset_labels.py script to process the raw data and build the structural frameworks.
+Generate Datasets: Execute data/make_datasets.py to generate the actual training and testing splits required for network training.
 Data Augmentation: Finally, run data_aug.py to perform data augmentation, enriching the training data to improve model robustness.
 
 🧠 Model Architecture & Fine-tuning
